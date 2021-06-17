@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ec007c">
+
+	<title>Form using Bootstrap4.5</title>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<div class="row justify-content-center mw-100">
+			<div class="col-12 col-sm-8 align-self-center mw-100 control">
+				<div class="card mw-100">
+                        <div class="card-header text-center bg-primary">
+                            <h3 class="mb-0"><strong>SAMPLE FORM USING BOOTSTRAP4.5</strong></h3>
+                        </div>
+                        <div class="card-body">
+                            <form class="form" role="form" autocomplete="on" id="usrform" action="" method="POST">
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label"><strong>Full Name<span class="required">*</span></strong></label>
+                                    <div class="col-lg-3">
+                                        <input class="form-control" type="text" placeholder="First Name" name="firstname" required="yes">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <input class="form-control" type="text" placeholder="Middle Name" name="middlename">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <input class="form-control" type="text" placeholder="Last Name" name="lastname" required="yes">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label"><strong>DOB & Pancard<span class="required">*</span></strong></label>
+                                    <div class="col-lg-4">
+                                        <input class="form-control" type="date" placeholder="dd/mm/yy" name="dob" required="yes">
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <input class="form-control" type="text" placeholder="PANCARD" name="pancard" required="yes">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label"><strong>Current Address<span class="required">*</span></strong></label>
+                                    <div class="col-lg-9">
+                                        <textarea class="form-control" type="text" placeholder="Present Address" name="currentaddress" form="usrform" required="yes"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label"><strong>Permanent Address<span class="required">*</span></strong></label>
+                                    <div class="col-lg-9">
+                                        <textarea class="form-control" type="text" placeholder="Permanent Address" name="permanentaddress" form="usrform" required="yes"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label"><strong>Contact<span class="required">*</span></strong></label>
+                                    <div class="col-lg-3">
+                                        <input class="form-control" type="tel" placeholder="Whatsapp" name="whatsapp" required="yes">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <input class="form-control" type="tel" placeholder="Mobile" name="mobile" required="yes">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <input class="form-control" type="tel" placeholder="Telephone" name="telephone" required="yes">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label"><strong>Relative 1<span class="required">*</span></strong></label>
+                                    <div class="col-lg-5">
+                                        <input class="form-control" type="text" placeholder="Name" name="relname1" required="yes">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input class="form-control" type="tel" placeholder="Mobile No." name="relmobile1" required="yes">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label"><strong>Relative 2</strong></label>
+                                    <div class="col-lg-5">
+                                        <input class="form-control" type="text" placeholder="Name" name="relname2">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input class="form-control" type="tel" placeholder="Mobile No." name="relmobile2">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label"><strong>Adhaar Number<span class="required">*</span></strong></label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="number" placeholder="Enter Adhaar No." name="adhaar" required="yes">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label"><strong>Qualifications & Expected CTC<span class="required">*</span></strong></label>
+                                    <div class="col-lg-6">
+                                        <input class="form-control" type="text" placeholder="Qualifications" name="qualification" required="yes">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <input class="form-control" type="number" placeholder="CTC (in Lakh Per Annum)" name="ctc" required="yes">
+                                    </div>
+                                </div>
+                                	<center>
+                                		<input type="submit" name="submit" placeholder="Submit" class="btn btn-lg btn-primary">
+                                	</center>
+                                		
+                            </form>
+                        </div>
+                </div>
+			</div>
+		</div>
+
+
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
